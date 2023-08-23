@@ -5,7 +5,7 @@ Smart contracts for IBFT PoS
 ## How to start
 
 ```shell
-$ git clone https://github.com/0xPolygon/staking-contracts.git
+$ git clone https://github.com/Acria-Network/acria-intellichain-staking-contracts.git
 $ cd staking-contracts
 $ npm i
 ```
@@ -22,7 +22,7 @@ $ npm run build
 $ npm run test
 ```
 
-### Deploy contract to Polygon Edge
+### Deploy contract to Acria IntelliChain
 
 ```shell
 $ npm run deploy

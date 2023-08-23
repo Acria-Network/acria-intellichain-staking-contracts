@@ -12,22 +12,12 @@ const privateKeys = (process.env.PRIVATE_KEYS ?? "000000000000000000000000000000
 const config: HardhatUserConfig = {
   solidity: "0.8.7",
   networks: {
-    polygonedge: {
-      url: process.env.JSONRPC_URL ?? "http://localhost:10002",
+    intellichain: {
+      url: process.env.JSONRPC_URL ?? "https://aic.acria.ai",
       accounts: [
           ...privateKeys,
       ],
     },
-  },
-  gasReporter: {
-    currency: "EUR",
-    gasPrice: 21
-  },
-  typechain: {
-    outDir: "types",
-    target: "ethers-v5",
-    alwaysGenerateOverloads: false,
-    externalArtifacts: ["externalArtifacts/*.json"],
   },
 };
 
