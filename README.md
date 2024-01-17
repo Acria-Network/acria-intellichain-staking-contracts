@@ -47,3 +47,6 @@ $ npm run unstake
 ```shell
 $ npm run info
 ```
+---
+
+Copyright 2024 Acria UG (haftungsbeschränkt)
